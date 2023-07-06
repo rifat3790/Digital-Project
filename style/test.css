@@ -5,5 +5,27 @@
 }
 .test{
     color: blue;
-    cursor: pointer
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+
+.box{
+    padding: 20px;
+    background-color: rgb(231, 9, 9);
+    width: 110px;
+
+}
+.box2{
+    
+    background-color: rgb(3, 236, 3);
+}
+.box3{
+    background-color: blue;
 }
