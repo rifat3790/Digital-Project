@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .menu-container{
-    background-color: gray;
+    background-color: rgb(90, 87, 87);
     padding: 20px;
     color: white;
     list-style: none;
@@ -20,8 +20,43 @@
 
 }
 .item{
-    margin-right: 10px;
-    padding: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
     font-size: 18px;
+    cursor: pointer;
     
+}
+.item:hover{
+    color: blue;
+    
+}
+.banner-img{
+    width: 300px;
+    display: flex
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid tomato;
+    background-image: url("/style/back3.jpg"),linear-gradient(45deg,#740e0e,#0a9e11);
+}
+
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.des{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    /* border-radius: 5px; */
+
 }
