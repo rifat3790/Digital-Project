@@ -62,6 +62,7 @@
     /* border-radius: 5px; */
     cursor: pointer;
 
+
 }
 .btn:hover{
     color: blue;
@@ -76,4 +77,38 @@
 .about-title{
     text-align: center;
     padding-top: 20px;
+}
+.box{
+    width: 250px;
+    height: 400px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    padding: 15px;
+    color: white;
+    /* display: flex; */
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+    background-color: gray;
+    text-align: center;
+    /* margin: 10px; */
+    
+}
+
+.box-tittle{
+    padding: 10px;
+
+}
+
+.box-description{
+    padding: 10px;
+}
+
+.service-continer{
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    padding: 20px;
 }
